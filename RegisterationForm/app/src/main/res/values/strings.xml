@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name" translatable="false">RegisterationForm</string>
+    <string name="name" translatable="false">Name</string>
+    <string name="phone_number" translatable="false">Phone Number</string>
+    <string name="email" translatable="false">Email</string>
+    <string name="registeration_textView">Registeration Form</string>
+    <string name="register_button">SUBMIT</string>
+    <string name="profile_image">PROFILE PICTURE</string>
+    <string name="nameholder">Name</string>
+    <string name="phoneNumberHolder">Phone Number</string>
+    <string name="emailHolder">Email</string>
+    <string name="genderHolder">Gender</string>
+
+    <string-array name="gender">
+        <item>Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Don\'t want to disclose</item>
+    </string-array>
+</resources>
