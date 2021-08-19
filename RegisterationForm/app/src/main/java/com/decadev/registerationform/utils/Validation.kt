@@ -9,12 +9,14 @@ fun nameValidation(name: String): Boolean {
     return name.isNotEmpty()
 }
 
-//method to validate right phone number format is inputted
+//method to vali                            date right phone number format is inputted
 fun phoneNumberValidation(mobile: String): Boolean {
     var result = false
     if (mobile.startsWith("+234") && mobile.length == 14) result = true
     if (mobile.startsWith("234") && mobile.length == 13) result = true
-    if ((mobile.startsWith("070") || mobile.startsWith("080") || mobile.startsWith("081") || mobile.startsWith("090")) && mobile.length == 11) result = true
+    if ((mobile.startsWith("070") || mobile.startsWith("080")
+                    || mobile.startsWith("081")
+                    || mobile.startsWith("090")) && mobile.length == 11) result = true
     return result
 }
 

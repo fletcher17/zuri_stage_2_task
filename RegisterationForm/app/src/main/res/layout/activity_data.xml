@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     style="@style/main_linearLayout"
+    android:orientation="vertical"
     tools:context=".DataActivity">
 
 
@@ -171,5 +172,12 @@
 
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
+    <ImageView
+        android:id="@+id/zuri_image_view"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/zuri"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"/>
 
 </LinearLayout>

@@ -1,18 +1,14 @@
 package com.decadev.registerationform
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.Spinner
 import android.widget.TextView
-import androidx.core.widget.doOnTextChanged
-import androidx.lifecycle.MediatorLiveData
-import androidx.lifecycle.MutableLiveData
+import androidx.appcompat.app.AppCompatActivity
 import com.decadev.registerationform.model.Users
-import com.decadev.registerationform.utils.*
+import com.decadev.registerationform.utils.userValidation
 import com.google.android.material.snackbar.Snackbar
-import com.google.android.material.textfield.TextInputLayout
 
 class MainActivity : AppCompatActivity() {
 
