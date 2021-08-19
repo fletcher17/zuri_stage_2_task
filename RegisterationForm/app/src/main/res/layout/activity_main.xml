@@ -3,40 +3,40 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main_linearLayout"
+    style="@style/main_linearLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    style="@style/main_linearLayout"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/registeration_textView"
+        style="@style/registeration_textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:fontFamily="@font/fontdiner_swanky"
-        style="@style/registeration_textView"
-        android:text="@string/registeration_textView"/>
+        android:text="@string/registeration_textView" />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/registeration_form"
+        style="@style/registteration_form"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        style="@style/registteration_form">
+        android:layout_gravity="center">
 
         <LinearLayout
             android:id="@+id/text_inputsLayout"
+            style="@style/text_inputsLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            style="@style/text_inputsLayout">
+            android:orientation="vertical">
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/nameForm_layout"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+                android:layout_height="wrap_content">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/name_form"
@@ -50,9 +50,9 @@
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/phoneNumber_layout"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_marginTop="10dp">
 
                 <com.google.android.material.textfield.TextInputEditText
@@ -66,10 +66,10 @@
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/email_layout"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+                android:layout_marginTop="10dp">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/email_textView1"
@@ -82,9 +82,9 @@
 
             <androidx.appcompat.widget.AppCompatSpinner
                 android:id="@+id/gender_textView"
+                style="@style/gender_textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                style="@style/gender_textView"
                 android:entries="@array/gender" />
 
         </LinearLayout>
@@ -104,8 +104,8 @@
         android:id="@+id/zuri_image_view"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:src="@drawable/zuri"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="30dp"/>
+        android:layout_marginTop="30dp"
+        android:src="@drawable/zuri" />
 
 </LinearLayout>
